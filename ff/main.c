@@ -144,7 +144,8 @@ void find_follow(int index){
                             else add_to_follow(index, *t);
                             t++;
                         }
-                        if(flag) j++;
+                        if(!flag) return; 
+                        j++;
                         if(*(tmp+j) != '\0') goto top;
                         else goto edge;
                     }
