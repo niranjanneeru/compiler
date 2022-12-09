@@ -1,0 +1,10 @@
+// Assuming all are Atomic Productions, All Terminals and Non Terminals are of length 1
+8
+E TR
+R e
+R +E
+T FS
+S e
+S *T
+F n
+F (E)
